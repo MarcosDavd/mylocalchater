@@ -9,7 +9,7 @@ En este caso tenemos que agregar la direccion ip del servidor y el puerto que se
 ``` bash 
     java EchoClient.java ipServidor puertoServidor
 ```
->[! IMPORTANT]
+>[!IMPORTANT]
 >Como la aplicacion esta haciendo uso de un puerto asignado por el usuario es necesario realizar cambios en el sistema deshabilitando firewalls para dado puerto.
 ``` bash
 sudo ufw status
