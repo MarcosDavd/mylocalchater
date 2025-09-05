@@ -12,8 +12,7 @@ public class EchoServer {
         int portNumber = Integer.parseInt(args[0]);
         
         try (
-            ServerSocket serverSocket =
-                new ServerSocket(Integer.parseInt(args[0]));
+            ServerSocket serverSocket = new ServerSocket(portNumber, 50, InetAddress.getByName("0.0.0.0"));
             Socket clientSocket = serverSocket.accept();     
             PrintWriter out =
                 new PrintWriter(clientSocket.getOutputStream(), true);                   
