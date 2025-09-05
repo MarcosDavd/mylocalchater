@@ -1,0 +1,23 @@
+# Compilados de clase
+*.class
+
+# Archivos de log
+*.log
+
+# BlueJ
+*.ctxt
+
+# Carpeta de salida
+/bin/
+/out/
+/build/
+/target/
+
+# Configuración de IDE
+*.iml
+.idea/
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
